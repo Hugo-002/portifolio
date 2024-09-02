@@ -1,0 +1,52 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif; /* Fonte padrão */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Cor de fundo da página */
+    color: #333; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo da barra de navegação */
+nav {
+    background-color: #333; /* Cor de fundo da barra de navegação */
+    padding: 10px 0; /* Espaçamento interno da barra */
+}
+
+nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Exibe itens de navegação em linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    color: white; /* Cor do texto dos links */
+    padding: 10px 15px; /* Espaçamento interno dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 18px; /* Tamanho da fonte dos links */
+    transition: background-color 0.3s ease; /* Transição suave de cor de fundo ao passar o mouse */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Cor de fundo ao passar o mouse */
+    border-radius: 5px; /* Arredonda as bordas */
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px; /* Espaçamento interno do conteúdo principal */
+}
+
+/* Estilo para cada seção */
+section {
+    margin: 20px auto; /* Espaçamento entre as seções */
+    padding: 20px; /* Espaçamento interno das seções */
+    background-color: white; /* Cor de fundo das seções */
+    border-radius: 8px; /* Arredonda as bordas
